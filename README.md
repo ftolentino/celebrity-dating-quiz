@@ -1,4 +1,4 @@
-# Voting 
+# Celebrity Dating Quiz
 
 #### By _**Filmer Tolentino**_, _**Matthew Herbert**_, _**Winnie Wang**_ 
 
