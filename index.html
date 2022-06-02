@@ -17,28 +17,48 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/scripts.js"></script>
-    <title>Car insurance</title>
+    <title>Celebrity Dating Quiz</title>
     <body>
       <div class="container">
-        <h1>Car insurance</h1>
+        <h1>Filmer and Friends Celebrity Dating Quiz!</h1>
+        <h3>Please select from the folowing options to find out who your soulmate is!</h3>
+        
+        <div class="card"> <!-- Card 1 -->
+          <form id="foodForm">
+            <div class="radio">
+              <label>
+                <input type="radio" name="Food" value="Candy" checked> 
+                Candy
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="Food" value="Steak"> 
+                Steak
+              </label>
+            </div>
+        </div> <!-- End Card 1 -->
+        <div class="card"> <!-- Card 2 -->
     
-        <p>To give you a quote, we need to know a little about you:</p>
-    
-        <form id="insurance">
-          <label for="age">Age</label>
-          <input id="age" type="text">
-          <label for="gender">Gender</label>
-          <select id="gender">
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-          </select>
-    
-          <button type="submit" class="btn">Calculate my quote</button>
-        </form>
-    
-        <div id="quote">
-          <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
-        </div>
-      </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="Animal" value="Cat" checked> 
+                Cat
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="Animal" value="Dog"> 
+                Dog
+              </label>
+            </div>
+          </div> <!-- End Card 2 -->
+          <div class="buttonDiv">
+            <button type="submit" class="btn btn-primary">Press me!</button>
+          </div>
+          </form>
+        <p>Your soulmate is <span class="output">
+        </span></p>
+     
     </body>
 </html>
